@@ -1,10 +1,10 @@
-#Linux System Health Monitor
+# Linux System Health Monitor
 
-##Project Overview
+## Project Overview
 
 The Linux System Health Monitor is a Bash scripting project that collects basic system health information on a Linux environment. It helps users check system resources and identify high memory or disk usage.
 
-##Objectives
+## Objectives
 
 - Monitor hostname and system uptime.
 - Display memory information and calculate memory usage percentage.
@@ -13,14 +13,14 @@ The Linux System Health Monitor is a Bash scripting project that collects basic 
 - Add a timestamp to each health report.
 - Save reports to a log file for later review.
 
-##Technologies Used
+## Technologies Used
 
 - Operating System: Ubuntu on WSL2
 - Scripting Language: Bash
 - Commands: "hostname", "uptime", "free", "df", "nproc", "top", "awk", "date", "tee"
 - Version Control: Git and GitHub
 
-##Project Structure
+## Project Structure
 
 linux-system-health-monitor/
 ├── README.md
@@ -29,7 +29,7 @@ linux-system-health-monitor/
 └── logs/
     └── health.log
 
-##How to Run
+## How to Run
 
 1. Open the terminal in the project directory.
 
@@ -45,7 +45,7 @@ linux-system-health-monitor/
    
    tail -n 15 logs/health.log
 
-##Sample Results
+## Sample Results
 
 During one test run:
 
@@ -58,15 +58,15 @@ During one test run:
 
 These values are sample observations from the test environment. They can change between runs.
 
-##Key Learning Outcomes
+## Key Learning Outcomes
 
 This project provides hands-on practice with Bash scripting, command substitution, Linux system monitoring commands, conditional statements, percentage calculations, timestamps, and log management. It also demonstrates how command-line tools can be combined to automate routine system checks.
 
-##Limitations
+## Limitations
 
 This is a basic monitoring script intended for learning. It does not run continuously in the background, send notifications, or automatically repair system issues.
 
-##Future Improvements
+## Future Improvements
 
 - Add continuous monitoring.
 - Include configurable warning thresholds.
